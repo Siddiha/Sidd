@@ -6,6 +6,7 @@ import BorderColorIcon from "@material-ui/icons/BorderColor";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import TwitterIcon from "@material-ui/icons/Twitter"; // Corrected import
 import "../styles/NavBar.css";
 
 class NavBar extends React.Component {
@@ -13,7 +14,7 @@ class NavBar extends React.Component {
     return (
       <Navbar fixed="top" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#">Gazi Jarin</Navbar.Brand>
+          <Navbar.Brand href="#">Siddiha Rimzan</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -23,17 +24,21 @@ class NavBar extends React.Component {
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link href="mailto:gazijarin@gmail.com">
-                <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
+              <Nav.Link href="mailto:Fathimasiddika62@gmail.com">
+                <EmailRoundedIcon style={{ fontSize: 20 }} />
               </Nav.Link>
-              <Nav.Link href="https://github.com/gazijarin" target="_blank">
-                <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
+              <Nav.Link href="https://github.com/Siddiha" target="_blank" rel="noopener noreferrer">
+                <GitHubIcon style={{ fontSize: 19 }} />
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/gazi-jarin-3644b0172/" target="_blank">
-                <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+              <Nav.Link href="https://www.linkedin.com/in/siddiha-rimzan" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon style={{ fontSize: 21 }} />
               </Nav.Link>
-              <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
-                <BorderColorIcon style={{ fontSize: 20 }}></BorderColorIcon>
+              <Nav.Link href="https://medium.com/fathimasiddika62" target="_blank" rel="noopener noreferrer">
+                <BorderColorIcon style={{ fontSize: 20 }} />
+              </Nav.Link>
+              {/* Twitter Link - Make sure to replace 'YourUserName' with your actual handle */}
+              <Nav.Link href="https://twitter.com/Siddiha_" target="_blank" rel="noopener noreferrer">
+                <TwitterIcon style={{ fontSize: 20 }} />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
