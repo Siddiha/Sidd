@@ -1,0 +1,116 @@
+/* Skills.css */
+#skills {
+    min-height: 50vh;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skills-categories {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 2px solid var(--lightest-navy);
+    padding-right: 20px;
+}
+
+.skills-category {
+    font-family: "NTR", sans-serif;
+    font-size: 16px;
+    color: var(--slate);
+    padding: 12px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.skills-category:hover,
+.skills-category.active {
+    color: var(--green-bright);
+}
+
+.skills-content {
+    flex: 1;
+    padding-left: 30px;
+    min-height: 300px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    color: var(--slate);
+    padding: 8px 0;
+}
+
+.skill-item::before {
+    content: "▹";
+    color: var(--green-bright);
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-family: "NTR", sans-serif;
+    font-size: 32px;
+    color: var(--lightest-slate);
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skills-categories {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid var(--lightest-navy);
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .skills-category {
+        white-space: nowrap;
+        margin-right: 30px;
+    }
+
+    .skills-content {
+        padding-left: 0;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -6,7 +6,7 @@ import BorderColorIcon from "@material-ui/icons/BorderColor";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import TwitterIcon from "@material-ui/icons/Twitter"; // Corrected import
+import TwitterIcon from "@material-ui/icons/Twitter";
 import "../styles/NavBar.css";
 
 class NavBar extends React.Component {
@@ -20,6 +20,7 @@ class NavBar extends React.Component {
             <Nav className="me-auto">
               <Nav.Link href="#intro">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link> {/* Changed from #Skill to #skills */}
               <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
@@ -33,10 +34,9 @@ class NavBar extends React.Component {
               <Nav.Link href="https://www.linkedin.com/in/siddiha-rimzan" target="_blank" rel="noopener noreferrer">
                 <LinkedInIcon style={{ fontSize: 21 }} />
               </Nav.Link>
-              <Nav.Link href="https://medium.com/fathimasiddika62" target="_blank" rel="noopener noreferrer">
+              <Nav.Link href="https://medium.com/@fathimasiddika62" target="_blank" rel="noopener noreferrer">
                 <BorderColorIcon style={{ fontSize: 20 }} />
               </Nav.Link>
-              {/* Twitter Link - Make sure to replace 'YourUserName' with your actual handle */}
               <Nav.Link href="https://twitter.com/Siddiha_" target="_blank" rel="noopener noreferrer">
                 <TwitterIcon style={{ fontSize: 20 }} />
               </Nav.Link>

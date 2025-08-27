@@ -1,6 +1,6 @@
 import React from "react";
 import SkillList from "./SkillList";
-import "../styles/Experience.css";
+import "../styles/Skills.css";
 import FadeInSection from "./FadeInSection";
 
 class Experience extends React.Component {
@@ -19,7 +19,7 @@ class Experience extends React.Component {
   }
   render() {
     return (
-      <div id="experience">
+      <div id="skills">
         <FadeInSection>
           <div className="section-header ">
             <span className="section-title">/Skills</span>
