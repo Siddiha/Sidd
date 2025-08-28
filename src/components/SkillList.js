@@ -108,7 +108,6 @@ const JobList = () => {
       jobTitle: " @",
       desc: [
         "Git.",
-        "Google cloud platfrom",
         "Github",
         "Docker",
         "Figma and Framer",
@@ -137,7 +136,6 @@ const JobList = () => {
       desc: [
         "SQL",
         "MongoDB",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
       ]
     }
   };
