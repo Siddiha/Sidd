@@ -107,12 +107,16 @@ const JobList = () => {
         " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
       ]
     },
-    Centivizer: {
-      jobTitle: "Software Developer @",
+    MercSphere: {
+      jobTitle: "Software Engineer Intern @",
       duration: "SEPT 2019 - APR 2020",
       desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
+        "Built responsive, high-performance websites using React.js, TypeScript, and modern web technologies.",
+        "Implemented SEO optimization strategies that improved client search rankings by an average of 85%.",
+        "Designed and developed mobile-responsive applications using React and Node.js backend architecture",
+      	"Utilized Python and Java for data analysis and automation to optimize marketing performance metrics.",
+        "Managed end-to-end project delivery from initial client consultation to final deployment and maintenance using the Srum Framework."
+
       ]
     },
     // TDSB: {
@@ -122,13 +126,13 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
-      jobTitle: "Software Developer Intern @",
-      duration: "MAY 2019 - AUG 2019",
+    "Instructor ": {
+      jobTitle: "TA & Instructor ",
+      duration: "MAY 2014 - Sep 2024",
       desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        "Created a private tutoring services for Students .",
+        "Helped them to work with Java, Python and ML languages.",
+        "•	Managed a team of 5 tutors serving over 40 students."
       ]
     }
   };
