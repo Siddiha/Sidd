@@ -36,9 +36,9 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer from Toronto, Canada. I'm fascinated by
-            large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that have 100M+ installs.
+            A computer science student from University of Westminster. I'm fascinated by
+            large-scale, high-impact products and  I aim to deepen my understanding in various areas
+             of technology and product development.
           </div>
           <a
             href="mailto:Fathimasiddika62@gmail.com"

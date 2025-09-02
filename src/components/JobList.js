@@ -128,11 +128,11 @@ const JobList = () => {
     // },
     "Instructor ": {
       jobTitle: "TA & Instructor ",
-      duration: "MAY 2014 - Sep 2024",
+      duration: "MAY 2024 - Sep 2024",
       desc: [
         "Created a private tutoring services for Students .",
         "Helped them to work with Java, Python and ML languages.",
-        "•	Managed a team of 5 tutors serving over 40 students."
+        "Managed a team of 5 tutors serving over 40 students."
       ]
     }
   };

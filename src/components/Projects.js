@@ -88,18 +88,18 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/OdinBot",
         open: ""
       },
-      "Game Centre": {
+      "CancerNet AI": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+          "AI-Powered Analysis: Advanced computer vision algorithms detect suspicious pulmonary nodules and masses",
+        techStack: "Python, react.js, Tailwind css, Javascript, tensorflow, docker, openCV, flask-application",
+        link: "https://github.com/Siddiha/Ai-cancer-detection",
         open: ""
       },
-      "Minimax Stonehenge": {
+      "Global unity": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
+          "An interactive web application that educates communities about climate change through real-time data visualization.",
+        techStack: "Html,CSS, Javascript , API",
+        link: "https://github.com/Siddiha/Global-Unity-Climate",
         open: ""
       }
     };
