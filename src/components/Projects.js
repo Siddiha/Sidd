@@ -81,9 +81,9 @@ class Projects extends React.Component {
         link:
           "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
       },
-      "Odin Bot": {
+      "Dash.Ai": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
+          "Dash connects to all your tools to complete entire tasks from Email, Calender and Many more.",
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
         link: "https://github.com/gazijarin/OdinBot",
         open: ""
