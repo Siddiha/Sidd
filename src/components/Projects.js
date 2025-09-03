@@ -84,8 +84,8 @@ class Projects extends React.Component {
       "Dash.Ai": {
         desc:
           "Dash connects to all your tools to complete entire tasks from Email, Calender and Many more.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
+        techStack: "",
+        link: "https://github.com/Siddiha/Dash.Ai",
         open: ""
       },
       "CancerNet AI": {
