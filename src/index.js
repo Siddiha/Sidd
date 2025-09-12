@@ -5,12 +5,12 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="/Sidd">
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
 
