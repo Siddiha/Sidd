@@ -8,7 +8,6 @@
 The portfolio built with React.js leveraging Material UI.
 </p>
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="./components/main.png">
 
 ## 🛠 set-up
 
