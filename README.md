@@ -6,7 +6,7 @@
   SiddihaRimzan
 </h1>
 <p align="center">
-The portfolio built with React.js leveraging Material UI.
+Portfolio built with React.js leveraging Material UI.
 </p>
 
 
