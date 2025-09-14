@@ -6,8 +6,6 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import FadeInSection from "./FadeInSection";
-
-
 const isHorizontal = window.innerWidth < 600;
 
 function TabPanel(props) {
