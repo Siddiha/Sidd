@@ -114,7 +114,7 @@ const JobList = () => {
         "Built responsive, high-performance websites using React.js, TypeScript, and modern web technologies.",
         "Implemented SEO optimization strategies that improved client search rankings by an average of 85%.",
         "Designed and developed mobile-responsive applications using React and Node.js backend architecture",
-      	"Utilized Python and Java for data analysis and automation to optimize marketing performance metrics.",
+        "Utilized Python and Java for data analysis and automation to optimize marketing performance metrics.",
         "Managed end-to-end project delivery from initial client consultation to final deployment and maintenance using the Srum Framework."
 
       ]
@@ -179,3 +179,13 @@ const JobList = () => {
 };
 
 export default JobList;
+
+
+
+
+
+
+
+
+
+

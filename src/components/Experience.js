@@ -22,7 +22,7 @@ class Experience extends React.Component {
       <div id="experience">
         <FadeInSection>
           <div className="section-header ">
-            <span className="section-title">/ experience and open-source Contributions</span>
+            <span className="section-title">/ experience</span>
           </div>
           <JobList></JobList>
         </FadeInSection>

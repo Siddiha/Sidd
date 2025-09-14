@@ -23,7 +23,7 @@ class About extends React.Component {
         <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
         sector under team Route 53. At the same time, I am undertaking a
         part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.westminster.ac.uk/study">University of Westminster</a>.
+        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
       </p>
     );
     const two = (
@@ -64,7 +64,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/Sidd.jpg"} />
+              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
             </div>
           </div>
         </FadeInSection>

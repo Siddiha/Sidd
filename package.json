@@ -1,20 +1,19 @@
 {
   "name": "Siddiha-Rimzan",
-  "homepage": "https://Siddiha.github.io/Sidd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.6.1",
     "p5": "^1.5.0",
-    "react": "^17.0.2",
+    "react": "^16.13.1",
     "react-bootstrap": "^1.6.4",
-    "react-dom": "^17.0.2",
-    "react-p5-wrapper": "^2.1.0",
+    "react-dom": "^16.13.1",
+    "react-p5-wrapper": "^3.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
@@ -30,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +49,6 @@
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "homepage": "https://gazijarin.com"
 }
