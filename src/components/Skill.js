@@ -3,7 +3,7 @@ import SkillList from "./SkillList";
 import "../styles/Skills.css";
 import FadeInSection from "./FadeInSection";
 
-class Experience extends React.Component {
+class Skill extends React.Component {  // Fixed: Changed class name from Experience to Skill
   constructor() {
     super();
     this.state = {
@@ -22,7 +22,7 @@ class Experience extends React.Component {
       <div id="skills">
         <FadeInSection>
           <div className="section-header ">
-            <span className="section-title">/Skills</span>
+            <span className="section-title">/ skills</span>  {/* Fixed: Lowercased skills */}
           </div>
           <SkillList></SkillList>
         </FadeInSection>
@@ -31,4 +31,4 @@ class Experience extends React.Component {
   }
 }
 
-export default Experience;
+export default Skill;  // Fixed: Changed from Experience to Skill

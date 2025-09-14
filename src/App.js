@@ -3,7 +3,7 @@ import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Skill from "./components/SkillList";
+import Skill from "./components/Skill"; // Fixed: Import from Skill componen
 import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
 import "./App.css";

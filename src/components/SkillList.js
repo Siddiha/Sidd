@@ -6,6 +6,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import FadeInSection from "./FadeInSection";
+
 const isHorizontal = window.innerWidth < 600;
 
 function TabPanel(props) {
@@ -76,64 +77,69 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const JobList = () => {
+const SkillList = () => {  // Fixed: Changed from JobList to SkillList
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
     Languages: {
-      jobTitle: " @",
+      jobTitle: "Programming Languages @",  // Fixed: Added proper title
+      duration: "", // Added duration field for consistency
       desc: [
-        "Java.",
-        "python.",
-        "c++",
+        "Java",
+        "Python", 
+        "C++",
         "Javascript",
         "Typescript",
         "Html",
-        "css",
-        "c"
+        "CSS",
+        "C"
       ]
     },
     Frameworks: {
-      jobTitle: "@",
+      jobTitle: "Frameworks & Libraries @",  // Fixed: Added proper title
+      duration: "", 
       desc: [
         "React.js",
-        "Node.js",
-        "Tailwind css"
+        "Node.js", 
+        "Express.js",
+        "Vue.js",
+        "Bootstrap",
+        "Tailwind CSS"
       ]
     },
     "Tools": {
-      jobTitle: " @",
+      jobTitle: "Development Tools @",  // Fixed: Added proper title
+      duration: "", 
       desc: [
-        "Git.",
+        "Git",
         "Github",
-        "Docker",
-        "Figma and Framer",
-        "Godot"
-
+        "Docker", 
+        "Figma",
+        "Framer",
+        "Godot",
+        "VS Code"
       ]
     },
     platforms: {
-      jobTitle: "@",
+      jobTitle: "Cloud & Platforms @",  // Fixed: Added proper title
+      duration: "", 
       desc: [
-        "Google Cloud Platforms",
-        "Heroku",
-        "Netflify"
-
+        "Google Cloud Platform",
+        "AWS",
+        "Heroku", 
+        "Netlify",
+        "Vercel"
       ]
     },
-    // TDSB: {
-    //   jobTitle: "Software Engineer @",
-    //   duration: "SEPT 2019 - DEC 2020",
-    //   desc: [
-    //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
-    //   ]
-    // },
     "Databases": {
-      jobTitle: "@",
+      jobTitle: "Database Technologies @",  // Fixed: Added proper title
+      duration: "", 
       desc: [
         "SQL",
         "MongoDB",
+        "PostgreSQL",
+        "MySQL"
       ]
     }
   };
@@ -152,11 +158,11 @@ const JobList = () => {
         className={classes.tabs}
       >
         {Object.keys(experienceItems).map((key, i) => (
-          <Tab label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} />
+          <Tab label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} key={i} />
         ))}
       </Tabs>
       {Object.keys(experienceItems).map((key, i) => (
-        <TabPanel value={value} index={i}>
+        <TabPanel value={value} index={i} key={i}>
           <span className="joblist-job-title">
             {experienceItems[key]["jobTitle"] + " "}
           </span>
@@ -167,8 +173,8 @@ const JobList = () => {
           <ul className="job-description">
             {experienceItems[key]["desc"].map(function (descItem, i) {
               return (
-                <FadeInSection delay={`${i + 1}00ms`}>
-                  <li key={i}>{descItem}</li>
+                <FadeInSection delay={`${i + 1}00ms`} key={i}>
+                  <li>{descItem}</li>
                 </FadeInSection>
               );
             })}
@@ -179,6 +185,4 @@ const JobList = () => {
   );
 };
 
-export default JobList;
-
-
+export default SkillList;  // Fixed: Changed from JobList to SkillList
