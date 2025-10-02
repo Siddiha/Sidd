@@ -136,10 +136,10 @@ const SkillList = () => {  // Fixed: Changed from JobList to SkillList
       jobTitle: "Database Technologies @",  // Fixed: Added proper title
       duration: "", 
       desc: [
-        "SQL",
+        "MYSQL",
         "MongoDB",
         "PostgreSQL",
-        "MySQL"
+        
       ]
     }
   };
