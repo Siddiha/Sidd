@@ -185,4 +185,4 @@ const SkillList = () => {  // Fixed: Changed from JobList to SkillList
   );
 };
 
-export default SkillList;  // Fixed: Changed from JobList to SkillList according to mine 
+export default SkillList; 
