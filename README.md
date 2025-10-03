@@ -2,7 +2,7 @@
  
 </p>
 <h1 align="center">
-  gazijarin.com - v1
+  Siddiha Rimzan
 </h1>
 <p align="center">
   The first iteration of  built with React.js leveraging Material UI.
