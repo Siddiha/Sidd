@@ -19,17 +19,17 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I am a deeply curious and motivated individual with a profound interest in the frontiers of technology
+       I am a passionate student with a deep love for technology, especially the world of Large Language Models (LLMs),
+        Artificial Intelligence (AI), and Machine Learning (ML).
+        I spend my time exploring, experimenting, and learning about these fascinating fields.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+         Outside of my studies, I have a creative and active side. I love expressing myself through arts 
+         and crafts and staying active by playing netball. 
+         I also enjoy keeping up with the latest in science and technology and diving into video games.
       </p>
     );
 
