@@ -39,7 +39,7 @@ class About extends React.Component {
       "React.js",
       "Java",
       "Javascript ES6+",
-      "C#"
+      "C++"
     ];
 
     return (

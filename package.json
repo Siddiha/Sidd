@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.6.1",
+    "caniuse-lite": "^1.0.30001750",
     "p5": "^1.5.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.6.4",
@@ -47,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^3.1.0",
     "prettier": "^2.2.1"
   },

@@ -87,7 +87,7 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/OdinBot",
         open: ""
       },
-      "CancerNet AI": {
+      "Veilo": {
         desc:
           "AI-Powered Analysis: Advanced computer vision algorithms detect suspicious pulmonary nodules and masses",
         techStack: "Python, react.js, Tailwind css, Javascript, tensorflow, docker, openCV, flask-application",
