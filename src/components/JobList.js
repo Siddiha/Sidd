@@ -85,7 +85,7 @@ const JobList = () => {
 
     MercSphere: {
       jobTitle: "Software Engineer Intern @",
-      duration: "SEPT 2019 - APR 2020",
+      duration: "June 2025 - August 2025",
       desc: [
         "Built responsive, high-performance websites using React.js, TypeScript, and modern web technologies.",
         "Implemented SEO optimization strategies that improved client search rankings by an average of 85%.",
