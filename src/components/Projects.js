@@ -60,12 +60,12 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Smart Respiratory Lung cancer detection app": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "An application to monitor the daily vital signs and cough variation patterns",
+        techStack: "Python (Flask), Vue.js, Bootstrap, SQL, tensorflow,WebSocket,  Springboot, flutter, Pandas , Supabase",
+        link: "https://github.com/Siddiha/Airea",
+        open: "https://airea.lk/"
       },
       "OdinBot": {
         desc:
@@ -73,24 +73,24 @@ class Projects extends React.Component {
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
         link: "https://github.com/gazijarin/adamai",
       },
-      "Distributed Logging and Monitoring System": {
+      "Health-Center Management-System": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+        techStack: "Java, JavaFX",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/Siddiha/Health-Centre-Management-System"
       },
-      "Dash.Ai": {
+      "MoveShift": {
         desc:
-          "Dash connects to all your tools to complete entire tasks from Email, Calender and Many more.",
-        techStack: "Typescript, Node.js, PostgreSQL,express, oauth2, googleapis,  Prisma , turborepo",
-        link: "https://github.com/gazijarin/OdinBot",
+          "A gesture-first, AI-assisted 3D workspace where your hands craft the scene.",
+        techStack: "Ract, Node.js, Python, OpenCv, Flask, martian , vite",
+        link: "https://github.com/Siddiha/moveshift",
         open: ""
       },
-      "Veilo": {
+      "Pyverse-GeoIntelligence": {
         desc:
-          "AI-Powered Analysis: Advanced computer vision algorithms detect suspicious pulmonary nodules and masses",
-        techStack: "Python, react.js, Tailwind css, Javascript, tensorflow, docker, openCV, flask-application",
+          "eoIntel AI is a sophisticated geopolitical intelligence platform that provides real-time global monitoring, AI-powered analysis, and interactive visualization of worldwide events.",
+        techStack: "Python, react.js, Tailwind css, Javascript, Fast Api, three.js",
         link: "https://github.com/Siddiha/Ai-cancer-detection",
         open: ""
       },
