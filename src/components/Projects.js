@@ -75,7 +75,7 @@ class Projects extends React.Component {
       },
       "Health-Center Management-System": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
+          "",
         techStack: "Java, JavaFX",
         link:
           "https://github.com/Siddiha/Health-Centre-Management-System"
@@ -89,7 +89,7 @@ class Projects extends React.Component {
       },
       "Pyverse-GeoIntelligence": {
         desc:
-          "eoIntel AI is a sophisticated geopolitical intelligence platform that provides real-time global monitoring, AI-powered analysis, and interactive visualization of worldwide events.",
+          "GeoIntel AI is a sophisticated geopolitical intelligence platform that provides real-time global monitoring, AI-powered analysis, and interactive visualization of worldwide events.",
         techStack: "Python, react.js, Tailwind css, Javascript, Fast Api, three.js",
         link: "https://github.com/Siddiha/Ai-cancer-detection",
         open: ""
