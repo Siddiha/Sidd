@@ -90,9 +90,6 @@ const JobList = () => {
         "Contributing to the open source projects using ballerina and Asgardeo in customer success team "
       ]
     },
-
-
-
     MercSphere: {
       jobTitle: "Software Engineer Intern @",
       duration: "June 2025 - August 2025",
@@ -105,7 +102,6 @@ const JobList = () => {
 
       ]
     },
-    
     "Instructor ": {
       jobTitle: "TA & Instructor ",
       duration: "MAY 2024 - Sep 2024",
