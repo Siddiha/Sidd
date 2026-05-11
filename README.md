@@ -2,10 +2,10 @@
  
 </p>
 <h1 align="center">
-  Siddiha Rimzan
+  Siddiha 
 </h1>
 <p align="center">
-  The first iteration of portfolio is  built with React.js leveraging Material UI.
+  The first iteration of portfolio is  built with React.js leveraging Material UI !!
 </p>
 
 <img width="1000" height="" alt="Image" src="https://github.com/user-attachments/assets/bff0011d-6422-44cc-a8d2-7d5ae0a7e114" />
