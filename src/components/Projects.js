@@ -75,7 +75,7 @@ class Projects extends React.Component {
       },
       "Health-Center Management-System": {
         desc:
-          "",
+          "The System is created for the expanding clinic services providing general services and to overcome the outdated record keeping system, ",
         techStack: "Java, JavaFX",
         link:
           "https://github.com/Siddiha/Health-Centre-Management-System"
@@ -83,7 +83,7 @@ class Projects extends React.Component {
       "MoveShift": {
         desc:
           "A gesture-first, AI-assisted 3D workspace where your hands craft the scene.",
-        techStack: "Ract, Node.js, Python, OpenCv, Flask, martian , vite",
+        techStack: "React, Node.js, Python, OpenCv, Flask, martian , vite",
         link: "https://github.com/Siddiha/moveshift",
         open: ""
       },
