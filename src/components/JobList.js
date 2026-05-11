@@ -84,7 +84,7 @@ const JobList = () => {
   const experienceItems = {
 
     ws02 : {
-      jobTitle: "Software Engineer intern",
+      jobTitle: "Software Engineer intern @",
       duration: "June 2026 - June 2027",
       desc: [
         "Contributing to the open source projects using ballerina and Asgardeo in customer success team "
